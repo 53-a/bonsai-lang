@@ -1,0 +1,14 @@
+[package]
+name = "bonsai-lang"
+version = "0.1.0"
+authors = ["_53a"]
+edition = "2021"
+build = "build.rs"
+license = "Unlicense"
+documentation = "https://qiita.com/_53a/items/de260505610256a00dbe"
+
+[dependencies]
+anyhow = "1.0"
+peg = "0.8"
+id-arena = "2.2"
+inkwell = { git = "https://github.com/vadorovsky/inkwell", branch = "llvm-17", default-features = false, features = ["llvm17-0", "target-x86"] }

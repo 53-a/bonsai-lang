@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+Cargo.lock
+**/*.exe
+**/*.BAK
+**/*.o
+/test-data/*
+!/test-data/.gitkeep
